@@ -3,7 +3,8 @@
 global var có thể được access và thay đổi bởi nhiều thành phần khác, điều này làm chương trình kém bảo mật  và gây ra nhiều lỗi không xác định được, hoặc xung đột tên nếu có nhiều người cũng phát triển
 
 ```javascript
-var myGlobal = "Look at me";
+
+var myGlobal = "Look at me";
 var useGlobal = function () {
 console.log("I can see the global: " + myGlobal);
 };
