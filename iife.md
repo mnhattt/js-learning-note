@@ -70,6 +70,10 @@ var Global= {
 console.log( Global.local.getLocal());
 ```
 
+
+
+Như trường hợp này khi in ra thì message dã undifine
+
 ![](https://scontent.fdad3-1.fna.fbcdn.net/v/t1.0-9/30714078_1837378226293959_5390352787974136281_n.png?_nc_cat=0&oh=ee1021bbf2bd3a69008622a139742593&oe=5B28BD57)
 
 
