@@ -2,6 +2,6 @@
 
 * Initial page
 * [func constructor vs obj constructor](func-constructor-vs-obj-constructor.md)
-* [global scope](global-scope.md)
+* [module pattern](global-scope.md)
 * Untitled
 
