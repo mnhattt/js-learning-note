@@ -4,7 +4,7 @@ description: thử nghiệm
 
 # IIFE
 
-Khong dung IIFE
+## Không dùng IIFE
 
 ```javascript
 var myNameSpace = {
@@ -24,7 +24,7 @@ var myNameSpace = {
 // console.log(myNameSpace.local().getLocal())
 ```
 
-Dung IIFE
+## Dùng IIFE
 
 ```javascript
 var myNameSpace = {
