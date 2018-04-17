@@ -1,9 +1,9 @@
-# Table of contents
+# Summary
 
 * [Introduction](README.md)
 * [func constructor vs obj constructor](func-constructor-vs-obj-constructor.md)
 * [module pattern](module-pattern.md)
 * [IIFE](iife.md)
-* [OOP in JS](oop-in-js/README.md)
-  * this and new
+* [OOP in JS](oop-in-js.md)
+* [this and new](this-and-new.md)
 
