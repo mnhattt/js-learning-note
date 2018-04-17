@@ -1,7 +1,3 @@
----
-description: thử nghiệm
----
-
 # IIFE
 
 ## Không dùng IIFE
