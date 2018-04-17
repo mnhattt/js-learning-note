@@ -5,5 +5,5 @@
 * [module pattern](module-pattern.md)
 * [IIFE](iife.md)
 * [OOP in JS](oop-in-js.md)
-* this and new
+* [this and new](this-and-new.md)
 
