@@ -19,7 +19,7 @@ var Car = function (loc) {
     // return this
 }
 
-Car.protoype = {
+Car.prototype = {
     move:  function() { /*  */ },
     brake: function() { /*  */ }
 }
@@ -37,4 +37,6 @@ var THIS = function () {
 new THIS() // > this = ???
 THIS()     // > this = ???
 ```
+
+
 
