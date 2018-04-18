@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Function in JS](function/README.md)
+  * [Các cách gọi hay tạo hàm](function/cac-cach-goi-hay-tao-ham.md)
   * [Scope and Clousure](function/scope-and-clousure.md)
   * [IIFE](function/iife.md)
 * [OOP in JS](oop/README.md)
