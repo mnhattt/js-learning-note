@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Function in JS](function/README.md)
+  * [this and new](oop-in-js/this-and-new.md)
 * [func constructor vs obj constructor](func-constructor-vs-obj-constructor.md)
 * [module pattern](module-pattern.md)
 * [IIFE](iife.md)
