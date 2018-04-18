@@ -1,6 +1,10 @@
 # ngữ cảnh
 
-Khi một hàm được thực thi\(hay được gọi\) thì luôn kèm theo một ngữ cảnh\(excution context\). Ngữ cảnh đó chính là **this**. Muốn xác định this thì luôn phải đặt câu hỏi, ngữ cảnh mà hàm đó đang thực thi là gì
+Khi một hàm được thực thi\(hay được gọi\) thì luôn kèm theo một ngữ cảnh\(excution context\). Ngữ cảnh đó chính là **this**. Muốn xác định this thì luôn phải đặt câu hỏi, ngữ cảnh mà hàm đó đang thực thi là gì.
+
+_**QUY TẮC là cứ nhìn sang bên trái của hàm, nếu ko chấm gì thì this sẽ là global hoặc undefine, áp dụng đúng với 90% trường hợp**_
+
+---
 
 ##### Khi hàm được gọi thẳng mà không thông qua bất cứ obj nào thì bối cảnh của nó sẽ là global hoặc undifine\(nếu dùng ‘use strict’\) {#khi-hàm-được-gọi-thẳng-mà-không-thông-qua-bất-cứ-obj-nào-thì-bối-cảnh-của-nó-sẽ-là-global-hoặc-undifinenếu-dùng-use-strict}
 
@@ -69,6 +73,10 @@ func.log(function () {
 })  
 // this = ???
 ```
+
+
+
+---
 
 ## chủ động thay đổi ngữ cảnh với bind, call, apply {#chủ-động-thay-đổi-ngữ-cảnh-với-bind-call-apply}
 
