@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Function in JS](function/README.md)
-  * Scope and Clousure
+  * [Scope and Clousure](scope-and-clousure.md)
   * [IIFE](iife.md)
 * [OOP in JS](oop-in-js/README.md)
   * [func constructor vs obj constructor](func-constructor-vs-obj-constructor.md)
