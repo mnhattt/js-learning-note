@@ -8,6 +8,6 @@
   * [this and new](oop-in-js/this-and-new.md)
   * [superClass and subClass](oop-in-js/123.md)
 * [this](this/README.md)
-* [call](this/call.md)
+* [call](oop-in-js/call.md)
 * [/test/123.md](this/test.md)
 
