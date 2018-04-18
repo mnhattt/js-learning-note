@@ -39,7 +39,7 @@ func.log()
 // console.log(this) =  { abc: 'xyz', log: [Function] }
 ```
 
-Thử nghiệm một tí 
+Thử nghiệm một tí
 
 ```
 var Func = function () {
@@ -65,12 +65,41 @@ func.log(function () {
     console.log(this);
 })
 // this = ???
-
-
-
 ```
 
 ## chủ động thay đổi ngữ cảnh với bind, call, apply
+
+thí nghiệm ở trên làm cho ngữ cảnh thay đổi từ obj sang global, giờ ta sẽ đưa nó về lại obj bằng bind
+
+```
+var func = {
+    abc: 'xyz',
+    log: function (cb) {
+        cb()
+    },
+}
+
+func.log((function () {
+    console.log(this);
+}).bind(func))
+// nhờ bind thì this = func 
+// console.log(this) = console.log(func)
+
+
+var func = {
+    abc: 'xyz',
+    log: function (cb) {
+        cb.apply(this) (1)
+    },
+}
+
+func.log(function () {
+    console.log(this); (2)
+})
+// dùng call/apply thì phải đưa lên trên hàm callback
+// this được đưa vào apply(1) chính là this lúc gọi hàm log, là đối tượng func
+// do đó lúc log ra this(2) chính là log ra đối tượng func
+```
 
 
 
