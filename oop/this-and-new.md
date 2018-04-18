@@ -38,5 +38,5 @@ new THIS() // > this = ???
 THIS()     // > this = ???
 ```
 
-
+xem thêm về [this](/oop/this.md), bind/apply/call
 
