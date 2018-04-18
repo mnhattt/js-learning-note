@@ -8,11 +8,11 @@ Khi một hàm được thực thi\(hay được gọi\) thì luôn kèm theo m�
 // 'use strict';  
 
 var Func = function () {  
-console.log(this);  
+    console.log(this);  
 }  
 
-Func()  
-new Func()
+Func()     // this = ??  
+new Func() // this = ??
 ```
 
 Khi một hàm được gọi bởi 1 obj thì obj đó được ngầm pass vào vào hàm
