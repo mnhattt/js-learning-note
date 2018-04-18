@@ -4,7 +4,7 @@
 * [Function in JS](function/README.md)
   * [Scope and Clousure](scope-and-clousure.md)
   * [IIFE](iife.md)
-* [OOP in JS](oop-in-js/README.md)
+* [OOP in JS](oop/README.md)
   * [func constructor vs obj constructor](func-constructor-vs-obj-constructor.md)
   * [this and new](oop-in-js/this-and-new.md)
   * [superClass and subClass](oop-in-js/123.md)
