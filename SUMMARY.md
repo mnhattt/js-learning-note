@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Function in JS](function/README.md)
 * [func constructor vs obj constructor](func-constructor-vs-obj-constructor.md)
 * [module pattern](module-pattern.md)
 * [IIFE](iife.md)
