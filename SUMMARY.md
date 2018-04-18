@@ -10,5 +10,10 @@
   * [superClass and subClass](oop-in-js/123.md)
   * [call](oop-in-js/call.md)
   * [this](this/README.md)
-* [module pattern](module-pattern.md)
+
+* Desgin Pattern
+
+
+
+
 
