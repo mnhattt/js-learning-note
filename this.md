@@ -32,5 +32,9 @@ var Func = {
 Func.log()
 ```
 
+## 
+
+## chủ động thay đổi ngữ cảnh với bind, call, apply
+
 
 
