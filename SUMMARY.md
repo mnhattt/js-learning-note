@@ -2,8 +2,8 @@
 
 * [Introduction](README.md)
 * [Function in JS](function/README.md)
-  * [Scope and Clousure](scope-and-clousure.md)
-  * [IIFE](iife.md)
+  * [Scope and Clousure](function/scope-and-clousure.md)
+  * [IIFE](function/iife.md)
 * [OOP in JS](oop/README.md)
   * [this and new](oop/this-and-new.md)
   * [superClass and subClass](oop/ke-thua.md)
