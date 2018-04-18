@@ -11,4 +11,7 @@
   * [call](oop-in-js/call.md)
   * [this](this/README.md)
 * [Desgin Pattern](desgin-pattern.md)
+  * [Module Pattern](/pattern/module-pattern.md)
+
+
 
