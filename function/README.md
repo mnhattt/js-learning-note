@@ -1,8 +1,6 @@
 first class citizen
 
+scope/clousure\(excution context\)
 
-
-scope/clousure
-
-this\(excution context\)
+this\(function context\)
 
