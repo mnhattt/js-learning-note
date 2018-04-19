@@ -74,8 +74,6 @@ func.log(function () {
 // this = ???
 ```
 
-
-
 ---
 
 ## chủ động thay đổi ngữ cảnh với bind, call, apply {#chủ-động-thay-đổi-ngữ-cảnh-với-bind-call-apply}
