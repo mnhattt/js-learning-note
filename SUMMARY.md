@@ -14,4 +14,5 @@
   * [func constructor vs obj constructor](oop/func-constructor-vs-obj-constructor.md)
 * [Desgin Pattern](desgin-pattern.md)
   * [Module Pattern](pattern/module-pattern.md)
+  * [MV\*](pattern/mv.md)
 

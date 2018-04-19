@@ -5,7 +5,7 @@
 global var có thể được truy cập và thay đổi bởi nhiều thành phần khác, điều này làm chương trình kém bảo mật  và gây ra nhiều lỗi không xác định được, hoặc xung đột tên nếu có nhiều người cũng phát triển
 
 ```javascript
-var myGlobal = "Look at me";
+var myGlobal = "Look at me";
 var useGlobal = function () {
 console.log("I can see the global: " + myGlobal);
 };
@@ -24,15 +24,15 @@ var myNamespace = {
 }
 ```
 
-2.  Bao lại bằng hàm để tạo local scope
+1. Bao lại bằng hàm để tạo local scope
 
 ```javascript
 var myGlobal = function () {
     var mylocal
-    
+
     var getLocal = function () { return myLocal }
     var setLocal = function (para) { myLocal = para }
-    
+
     return {  
         getLocal:  getLocal,
         setLocal:  setLocal
@@ -41,4 +41,31 @@ var myGlobal = function () {
 
 // đây chính là module pattern trong JS !
 ```
+
+# Chốt
+
+```
+var module = (function()
+	///
+
+	//
+	return: {
+
+	}
+)()
+
+(function()
+	var module = function
+
+	//
+	return: {
+
+	}
+
+	window.module
+)()
+
+```
+
+
 
