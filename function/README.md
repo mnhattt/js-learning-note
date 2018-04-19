@@ -4,7 +4,16 @@ scope/clousure\(excution context\)
 
 this\(function context\)
 
-lexical env
+lexical enviroment
+
+
+
+  
+
+
+
+
+
 
 
 
