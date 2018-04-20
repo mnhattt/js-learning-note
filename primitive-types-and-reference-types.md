@@ -58,5 +58,5 @@ var func_obj = anonymous
 var another_func_obj = anonymous
 ```
 
-
+vấn đề trở nên dể nhầm lẫn vì chúng ta có quá nhiều anonymous function được tạo ra
 
