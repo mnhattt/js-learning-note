@@ -16,9 +16,7 @@ từ giờ sẽ không làm việc với các địa chỉ 0xxxx rất khó nh�
 
 với việc đọc/hiểu biến theo 2 cách đó ta có 2 loại giá trị tương ứng primitive values và reference  values
 
-với primitive values 
-
-
+với primitive values
 
 với reference  values
 
@@ -35,4 +33,24 @@ tương đương, cấp phát 1 vùng nhớ trong bộ nhớ cho biến obj
 ## Array, Function, ...
 
 là các loại reference  values khác
+
+Tương tự Object, khi tạo một function là ta đã tạo ra một đối tượng function\(ở đâu đó trong bộ nhớ\). 2 tạo bằng declare và expression thật chất đề là gán địa chỉ của func obj đó cho biến func\_obj
+
+```
+var func_obj = function () {
+    
+}
+
+function func_obj() {
+    
+}
+
+var another_func_obj = func_obj
+```
+
+Nên ta hoàn toàn có thể gán địa chỉ đó cho 1 biến khác, another\_func\_obj  sẽ có địa chỉ hoàn toàn tương đương nghĩa là cùng chỉ tới một đối tượng giống như func\_obj. Nên ta có thể gọi hoặc overloading func\_obj.
+
+
+
+
 
