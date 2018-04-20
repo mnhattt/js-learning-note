@@ -15,4 +15,5 @@
 * [Desgin Pattern](desgin-pattern.md)
   * [Module Pattern](pattern/module-pattern.md)
   * [MV\*](pattern/mv.md)
+* [Primitive types and Reference types](primitive-types-and-reference-types.md)
 
