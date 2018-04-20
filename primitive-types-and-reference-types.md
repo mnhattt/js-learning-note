@@ -60,3 +60,12 @@ var another_func_obj = anonymous
 
 vấn đề trở nên dể nhầm lẫn vì chúng ta có quá nhiều anonymous function được tạo ra
 
+```
+var func_obj = function () { }
+var another_func_obj = function () { }
+
+console.log(func_obj === another_func_obj) // false
+```
+
+
+
