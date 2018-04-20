@@ -10,5 +10,13 @@ là ta sẽ tạo trong bộ nhớ 1 block mới\(giả sử 0x60\) và gán cho
 
 từ giờ sẽ không làm việc với các địa chỉ 0xxxx rất khó nhớ nữa mà làm việc với các biến có tên dể nhớ hơn như a
 
-![](/assets/data-type-1.png)
+![](/assets/data-type-1.png)Trong js để tạo ra một đối tượng mới thì chỉ có 2 cách
+
+dùng constructor hoặc là literal methode
+
+var obj = {}
+
+var obj new Object\(\)
+
+tương đương, cấp phát 1 vùng nhớ trong bộ nhớ cho biến obj
 
