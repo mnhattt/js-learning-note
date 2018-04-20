@@ -32,8 +32,6 @@ tương đương, cấp phát, tạo 1 đối tượng trong bộ nhớ
 trả địa chỉ của đối tượng đó về cho biến obj
 ```
 
-
-
 ## Array, Function, ...
 
 là các loại reference  values khác
@@ -54,8 +52,7 @@ another_func_obj và func_obj sẽ điều chỉ tới 1 đối tượng anonymo
 tương đương
 
 ```
-function anonymous() = {
-}
+function anonymous() = {}
 
 var func_obj = anonymous
 var another_func_obj = anonymous
