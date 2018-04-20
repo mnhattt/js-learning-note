@@ -24,11 +24,15 @@ Trong js để tạo ra một đối tượng mới thì chỉ có 2 cách
 
 dùng constructor hoặc là literal methode
 
+```
 var obj = {}
+var obj = new Object()
 
-var obj new Object\(\)
+tương đương, cấp phát, tạo 1 đối tượng trong bộ nhớ 
+trả địa chỉ của đối tượng đó về cho biến obj
+```
 
-tương đương, cấp phát 1 vùng nhớ trong bộ nhớ cho biến obj
+
 
 ## Array, Function, ...
 
@@ -38,19 +42,24 @@ Tương tự Object, khi tạo một function là ta đã tạo ra một đối 
 
 ```
 var func_obj = function () {
-    
-}
-
-function func_obj() {
-    
+    // đối tượng anonymous function sẽ được tạo ra
+    // địa chỉ đối tượng được trả về cho func_obj 
 }
 
 var another_func_obj = func_obj
+
+another_func_obj và func_obj sẽ điều chỉ tới 1 đối tượng anonymous function
 ```
 
-Nên ta hoàn toàn có thể gán địa chỉ đó cho 1 biến khác, another\_func\_obj  sẽ có địa chỉ hoàn toàn tương đương nghĩa là cùng chỉ tới một đối tượng giống như func\_obj. Nên ta có thể gọi hoặc overloading func\_obj.
+tương đương
 
+```
+function anonymous() = {
+}
 
+var func_obj = anonymous
+var another_func_obj = anonymous
+```
 
 
 
