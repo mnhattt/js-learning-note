@@ -5,6 +5,7 @@
   * [Các cách gọi hay tạo hàm](function/cac-cach-goi-hay-tao-ham.md)
   * [Scope and Clousure](function/scope-and-clousure.md)
   * [Lexical enviroments](function/lexical-context.md)
+  * [this](function/this.md)
   * [function context\(this\)](oop/this.md)
   * [call](oop/call.md)
   * [IIFE](function/iife.md)
